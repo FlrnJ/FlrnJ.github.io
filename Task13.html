@@ -31,15 +31,41 @@
 							<section id="one">
 								<div class="inner">
 									<header class="major">
-										<h1>Task 13</h1>
+										<h1>Visualisation Process</h1>
 									</header>
-									<p>While clicking trough Whatsapp, I discovered the possibility to export your conversations as a .txt file. I thought that this would be a great dataset for a visualisation about me. In a first step, I coded a python programm that extracts the amount of messages I've sent on a particular day to someone. Then, I inserted that output into excel and this is what the first draft of my visualisation looked like:</p>
+									<p>While clicking trough WhatsApp, I discovered the possibility to export your conversations as a .txt file. I thought that this would be a great dataset for a visualisation about me. In a first step, I coded a python program that extracts the number of messages I've sent on a particular day to someone. Then, I inserted that output into excel and this is what the first draft of my visualisation looked like:</p>
 									<span class="image main"><img src="plots/t13-1.png" alt="" /></span>
-									<p> I made a selection of chats which might have interesting patterns. Then I uploaded this data to flourish in order to make it more interactive and visually appealing. At that stage, the result looked like this:</p>
+									<p> I selected chats which might have interesting patterns. Then I uploaded this data to flourish in order to make it more interactive and visually appealing. At that stage, the result looked like this:</p>
 									<span class="image main"><img src="plots/t13-2.png" alt="" /></span>
-									<p>At this point, I was convinced of the concept and decided to thing about the details. A problem which became quickly apparent was the daily frequency. I had so many indiviual data points, that the time series looked rather jagged and the animation took ages. To solve those issues, I coded a R-Script which took the time series data and aggregated it to a weekly frequency. Ultimately, the plot looked like this:</p>
+									<p>At this point, I was convinced of the concept and decided to thing about the details. A problem which became quickly apparent was the daily frequency. I had so many individual data points, that the time series looked rather jagged, and the animation took too long. To solve those issues, I coded a R-Script which took the time series data and aggregated it to a weekly frequency. Ultimately, the plot looked like this:</p>
 									<span class="image main"><img src="plots/t13-3.png" alt="" /></span>
 									<p>Last but not least, I realised that I needed to give some additional information about the people in the visualisation. Like that, people who don't know my contacts personally can read this plot in a meaningful way.</p>
+									<table>
+										<tr>
+										  <th>Person</th>
+										  <th>Relation</th>
+										</tr>
+										<tr>
+										  <td>J. B.</td>
+										  <td>A friend who is studying economics with me. We learn a lot together and many texts are about school.</td>
+										</tr>
+										<tr>
+											<td>B. T.</td>
+											<td>A friend from a students' association.</td>
+										</tr>
+										<tr>
+											<td>L. D.</td>
+											<td>A childhood friend. We meet in person more often than we text.</td>
+										</tr>
+										<tr>
+											<td>M. J.</td>
+											<td>My sister. Most messages are about organising family things.</td>
+										</tr>
+										<tr>
+											<td>P. P.</td>
+											<td>A guy I've dated for a while.</td>
+										</tr>
+									  </table>
 								</div>
 							</section>
 
